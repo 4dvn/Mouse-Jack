@@ -1,0 +1,11 @@
+".\Object\main.obj",
+".\Object\STARTUP.obj",
+".\Object\hal_delay.obj",
+".\Object\hal_usb.obj",
+".\Object\hal_usb_hid.obj",
+".\Object\usb_desc.obj" 
+TO ".\Object\usb_hid_in_out" 
+REGFILE (.\Object\usb_hid_in_out.ORC) 
+PRINT(".\lst\usb_hid_in_out.map") DISABLEWARNING (15,16) 
+CLASSES (XDATA (X:0x8000-X:0x87FF), HDATA (X:0x8000-X:0x87FF), CODE (C:0x0-C:0x7FFF), CONST (C:0x0-C:0x7FFF), 
+ECODE (C:0x0-C:0x7FFF), HCONST (C:0x0-C:0x7FFF)) 

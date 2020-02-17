@@ -1,5 +1,0 @@
-".\Object\main.obj",
-".\Object\hal_delay.obj" 
-TO ".\Object\led" 
-PRINT(".\lst\led.m51") RAMSIZE(256) 
-DISABLEWARNING (15,16) 
